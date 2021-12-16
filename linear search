@@ -1,0 +1,26 @@
+#include<stdio.h>
+main()
+{
+printf("Enter array size\n");
+scanf("%d",&n);
+
+printf("Enter array ele\n");
+for(i=1;i<=n;i++)
+scanf("%d",&a[i]);
+
+printf("Enter search ele\n");
+scanf("%d",&z);
+
+for(i=1;i<=n;i++)
+{
+if(a[i]==z)
+{
+break;
+}
+}
+if(i<=n)
+printf("yes position=%d",i);
+else
+printf("no");
+
+}
